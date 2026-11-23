@@ -61,3 +61,8 @@ span.condicional{display:inline-block}
 .condicional::before{content:attr(data-rotulo);display:block;font-size:.78rem;font-weight:800;color:#1d4ed8;margin-bottom:.25rem}
 .oferta{font-weight:700}
 .autoria{margin:-.25rem 0 .9rem;color:inherit;opacity:.85;font-size:1rem}
+.email-oficial{display:flex;flex-direction:column;gap:.15rem;padding:1rem 1.1rem;border:1px solid var(--linha,#e7d9cc);border-radius:14px;background:#fff;margin:1rem 0}
+.email-oficial span{font-size:.85rem;color:var(--suave)}
+.temas-suporte a{display:flex;flex-direction:column;gap:.2rem;text-decoration:none;color:inherit}
+.temas-suporte span{color:var(--suave);font-size:.95rem}
+.texto ul.temas-suporte{padding-left:0;margin-left:0}
